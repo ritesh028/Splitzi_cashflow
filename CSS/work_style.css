@@ -1,0 +1,100 @@
+#our-work {
+	height: 100vh;
+	width: 100vw;
+}
+
+#text-what-we-do {
+	height: 5%;
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#text-what-we-do span {
+	color: white;
+	font-size: 2rem;
+	position: relative;
+	top: 65%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+#how-we-do {
+	height: 15%;
+	width: 100%;
+	text-align: center;
+}
+
+#how-we-do span {
+	color: white;
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#work-container {
+	height: 70%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#work-img-one {
+	height: 100%;
+	width: 30%;
+}
+
+#work-img-one img {
+	position: relative;
+	height: 45%;
+	width: 62%;
+	left: 19%;
+	top: 25%;
+	border-radius: 5%;
+}
+
+#info-our-work {
+	height: 80%;
+	width: 40%;
+	border: 2px solid white;
+	background-color: green;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255, 0.1);	
+	text-align: center;
+	transition: background-color 0.5s;
+	overflow: auto; 
+}
+
+#info-our-work::-webkit-scrollbar {	
+    display: none;
+}
+
+#info-our-work p {
+	color: white;
+	font-size: 1.6rem;
+	padding: 2px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	position: relative;
+	top: 4%;
+}
+
+#info-our-work:hover {
+	background-color: #00000052;
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 1); 
+}
+
+#work-img-two {
+	height: 100%;
+	width: 30%;
+}
+
+#work-img-two img {
+	position: relative;
+	height: 45%;
+	width: 62%;
+	left: 19%;
+	top: 25%;
+	border-radius: 5%;
+}

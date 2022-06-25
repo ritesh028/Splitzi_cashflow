@@ -1,0 +1,109 @@
+.horizontal-list {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
+	text-align: center;
+}
+
+.horizontal-list li {
+	display: inline-block;
+}
+
+.horizontal-list li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 0px 15px; 
+	letter-spacing: 1px;
+	word-spacing: -0.5px;
+}
+
+.nav-menu li a {
+	transition: color 0.5s;
+}
+
+.nav-menu li a:hover {
+	color: lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+#text-travel-plan {
+	height: auto;
+	margin: 0px auto 15% auto;
+	text-align: center;
+}
+
+#text-travel-plan span {
+	color: white;
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+#text-welcome {
+	height: auto;
+	margin: 18% auto 0px auto;
+	text-align: center;
+}
+
+#text-welcome span {
+	color: white;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+#plane-icon {
+	height: auto;
+	margin: 0.5% auto 18% auto;
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+}
+
+#take-a-tour {
+	height: auto;
+	width: 12%;
+	margin: auto;
+	border: 2px solid white;
+	text-align: center;
+	border-radius: 25px;
+	padding: 0.2%;
+	transition: background-color 0.5s;
+}
+
+#take-a-tour a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	word-spacing: 0.4rem;
+}
+
+#take-a-tour:hover {
+	background-color: black;
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.8); 
+}
+
+#rotate-earth {
+	position: relative;
+	height: 75px;
+	width: 75px;
+	background: url(../IMAGES/black.png);
+	border-radius: 50%;
+	background-size: cover;
+	animation: rotate 5s linear infinite;
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.8);
+	margin: 1% auto;
+}
+
+@keyframes rotate {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 600px 0;
+	}
+}

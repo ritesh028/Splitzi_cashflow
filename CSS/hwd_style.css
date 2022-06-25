@@ -1,0 +1,150 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-image: url(../IMAGES/money.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.horizontal-list {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 25px 0px 100px 0px;
+	text-align: center;
+}
+
+.horizontal-list li {
+	display: inline-block;
+}
+
+.horizontal-list li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 0px 15px; 
+	letter-spacing: 1px;
+	word-spacing: -0.5px;
+}
+
+.nav-menu li a {
+	transition: color 0.5s;
+}
+
+.nav-menu li a:hover {
+	color: lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.timeline {
+	position: relative;
+	width: 100%;
+	height: 1600px;
+	margin-top: 5%;
+}
+
+.timeline-box {
+	height: auto;
+	width: 35vw;
+	border: 2px solid white;
+	border-radius: 25px;
+	position: relative;
+	overflow-y: auto;
+	padding: 1%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.1);	
+}
+
+
+.timeline-box:hover {
+	background-color: #00000052;
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.8); 
+}
+
+.timeline-box::-webkit-scrollbar {	
+    display: none;
+}
+
+.timeline-box:nth-child(2n) {
+	left: 60%;
+}
+
+.timeline-box:nth-child(2n+1) {
+	left: 5%;
+}
+
+.timeline-divider {
+	position: absolute;
+	height: 60%;
+	width: 0.1px;
+	border: 3px dashed white;
+	left: 50%;
+	top: 2%;
+}
+
+.timeline-traveller {
+	position: sticky;
+	transform: rotate(90deg);
+	top: 25%;
+	z-index: 2;
+	left: 0%;
+}
+
+.timeline-traveller i {
+	margin-left: -45px;
+	margin-right: -45px;
+	top: 0%;
+	font-size: 5rem;
+	border-radius: 50%;
+	box-shadow: 0px 0px 100px 100px rgba(230, 196, 196, 0.8); 
+	color: black;
+	background-color: #bfa4a3;
+}
+
+#how-we-do {
+	height: 15%;
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#how-we-do span {
+	color: white;
+	font-size: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#container-box {
+	position: relative;
+	top: -20%;
+	width: 75vw;
+	height: 75vh;
+	border: 1px solid white;
+}
+
+.timeline-box span {
+	color: white;
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	position: relative;
+}
+
+#step-one {
+	top: 30%;
+}
+
+#step-four {
+	top: 20%;
+}
+#step-six {
+	top: 25%;
+}
